@@ -1,0 +1,43 @@
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.item {
+  padding: 8rem;
+
+  width: 100px;
+
+  background-color: antiquewhite;
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 576px) {
+  .item {
+    background-color: seagreen;
+  }
+}
+
+/* TABLET */
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .item {
+    background-color: lightcoral;
+  }
+}
+
+/* LAPTOP */
+
+@media screen and (min-width: 769px) {
+  .item {
+    background-color: lightblue;
+  }
+}
